@@ -60,7 +60,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [3] = LAYOUT(
     TD(DANCE_54),   KC_MS_WH_LEFT,  KC_MS_UP,   KC_MS_WH_RIGHT,     TD(DANCE_55),               LGUI(KC_LBRACKET),     LCTL(LSFT(KC_TAB)),     RCTL(KC_TAB),   LGUI(KC_RBRACKET),  KC_TRANSPARENT, 
   //---------------------------------------------------------------------------------------     --------------------------------------------------------------------------------------------------
-	TD(DANCE_56),   KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_RIGHT,    MT(MOD_LGUI,KC_DEL),        TD(DANCE_60),   MT(MOD_RGUI,    KC_DOWN),   MT(MOD_RALT,KC_UP),     TD(DANCE_63),   KC_ENTER,     
+	KC_TAB,   KC_MS_LEFT,     KC_MS_DOWN,     KC_MS_RIGHT,    MT(MOD_LGUI,KC_DEL),        TD(DANCE_60),   MT(MOD_RGUI,    KC_DOWN),   MT(MOD_RALT,KC_UP),     TD(DANCE_63),   KC_ENTER,     
   //---------------------------------------------------------------------------------------     --------------------------------------------------------------------------------------------------
     TD(DANCE_58),   KC_MS_BTN2,     KC_MS_WH_UP,    KC_MS_WH_DOWN,  KC_TRANSPARENT,             KC_MS_BTN1,     KC_MS_ACCEL0,   KC_MS_ACCEL1,   KC_MS_ACCEL2,   KC_NO, 
   //---------------------------------------------------------------------------------------     --------------------------------------------------------------------------------------------------
