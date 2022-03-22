@@ -37,11 +37,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [1] = LAYOUT(
   //---------------------------------------------------------------------------------------     ----------------------------------------------------------------------------------
-    KC_ESCAPE,  KC_AT,  LSFT(KC_3),         TD(DANCE_31),               KC_PERC,                KC_CIRC,    KC_AMPR,    KC_ASTR,    KC_SCOLON,  KC_BSPC ,
+    KC_ESCAPE,  KC_AT,  LSFT(KC_3),     TD(DANCE_31),               KC_PERC,                    KC_CIRC,    KC_AMPR,    KC_ASTR,    KC_SCOLON,  KC_BSPC ,
   //---------------------------------------------------------------------------------------     ----------------------------------------------------------------------------------
-    KC_TAB,     KC_EQL, LCA(KC_LEFT),   LCA(KC_RIGHT),    TD(DANCE_32),           TD(BKSL_HME), LSFT(KC_LBRC),  LSFT(KC_RBRC),  TD(PIPE_END),   KC_ENTER,
+    KC_TAB,     KC_EQL, LCA(KC_LEFT),   LCA(KC_RIGHT),    TD(DANCE_32),                         TD(BKSL_HME), LSFT(KC_LBRC),  LSFT(KC_RBRC),  TD(PIPE_END),   KC_ENTER,
   //---------------------------------------------------------------------------------------     ----------------------------------------------------------------------------------
-    KC_TILD,    TD(DANCE_33),   LALT(KC_LBRACKET),  LAG(KC_BACKSLASH),    KC_DQUO,              KC_LBRC     ,KC_LPRN   ,KC_RPRN   ,KC_RBRC   ,TO(3)   ,
+    KC_TILD,    TD(DANCE_33),           LAG(KC_BACKSLASH), KC_GRAVE,   KC_DQUO,                 KC_LBRC     ,KC_LPRN   ,KC_RPRN   ,KC_RBRC   ,TO(3)   ,
   //---------------------------------------------------------------------------------------     ----------------------------------------------------------------------------------
 		    					TO(0),  OSM(MOD_LSFT),                                          KC_RALT,    TO(2) 
   ),
